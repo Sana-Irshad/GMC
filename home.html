@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Managment Consultants</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- ...Navbar start.... -->
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="GMC-Logo.png" alt="Logo" height="60px" width="60px">
+                </div>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <div>
+                <ul class="nav-links">
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                </div>
+                <div class="login-signup-btn">
+                    <button class="nav-btn" id="loginbtn">Login</button>
+                    <div class="login-container" id="loginContainer">
+                    <div class="login-box">
+                        <form id="loginForm" action="#">
+                            <h2>Login</h2>
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="username" required>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                            <button type="submit">Login</button>
+                        </form>
+                        <span class="close" id="closeBtn">&times;</span>
+                    </div>
+                </div>
+                    <button class="nav-btn" id="signupbtn">Sign Up</button>
+                    <div class="signup-container" id="signupContainer">
+                        <div class="signup-box">
+                            <form id="signupForm" action="#">
+                                <h2>Sign Up</h2>
+                                <label for="fullname">Full Name:</label>
+                                <input type="text" id="fullname" name="fullname" required>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                                <label for="signupUsername">Username:</label>
+                                <input type="text" id="signupUsername" name="signupUsername" required>
+                                <label for="signupPassword">Password:</label>
+                                <input type="password" id="signupPassword" name="signupPassword" required>
+                                <button type="submit">Sign Up</button>
+                            </form>
+                            <span class="close" id="closeSignupBtn">&times;</span>
+                        </div>
+                </div>
+                
+            </div>
+            </div>
+        </nav>
+
+    
+    <!-- ....navbar ends... -->
+
+    <!-- <----- ....About US section starts... -->
+    <section class="container-1">
+        <h1>Tax and Accounting Services for Small and<br> Medium Businesses</h1>
+        <p>Global Management Consultant is one of the leading companies in<br> Pakistan with operations in three major
+            cities i.e, Islamabad, Lahore, and Karachi.</p>
+        <p id="hidden-para"> GMC is a mid-sized progressive accounting,
+            auditing, Business Consulting Services & Tax Management firm providing a
+            comprehensive set of cost-effective solutions to organizations like yours.
+            Our services include auditing, accounting, book-keeping, business management, HR,
+            and IT consulting. We are equipped with state of art tools and techniques along with
+            dedicated professionals to evaluate potential opportunities and risks delivering
+            effective auditing and assurance services. We understand value-adding auditing and
+            assurance service focuses on the scope of business improvement rather than merely
+            preparing financial statements and reporting on figures.
+            Our Chief Operating Office Mr. Tariq Amin, has over 20 years of extensive
+            experience in the auditing and accounting industry. He is a fellow member of the
+            Institute of Chartered Accountants of Pakistan. He has worked with audit firms in
+            Pakistan as well as Malaysia and is familiar with all legal aspects applicable to business
+            organizations in Pakistan. His far-seeing vision, leadership, and motivation have enabled
+            many organizations to achieve greater heights, where he has been partnered or
+            associated with. His vast experience in performing audits and analyzing financial
+            statements will help you to put aside all the worries related to accounting and financial
+            management and focus on your business growth.
+            We have associate offices in Pakistan and Malaysia offering similar services to serve
+            you better.
+        </p>
+        <div>
+            <button id="container-btn" onclick="displayPara()">More Details</button>
+        </div>
+    </section>
+    <!-- <----- ....About US section ends... -->
+
+    <!-- ....Services section starts... -->
+    <section>
+        <div>
+            <h1 class="ser-head">Our <span>Services</span></h1>
+        </div>
+        <div class="container-ser">
+            <div class="card">
+                <h2>Accounts Management</h2>
+                <p>We prepare companies' accounts with the help of the IFRS system and present the financial reporting
+                    at the end of the month.</p>
+                <button class="card-btn">Read More</button>
+                <div class="hiddendetails">
+                    <ul>
+                        <li>Day to day transactions</li>
+                        <li>Monthly reports</li>
+                        <li>Finacial statments at the end of the month</li>
+                        <li>IFRS and GAAP Implementation and conversion</li>
+                        <li>Preparation of annual reports</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Bookkeeping</h2>
+                <p>We offer comprehensive bookkeeping services that go beyond just keeping track of financial
+                    transactions. Not only do we handle the day-to-day tasks.</p>
+                <button class="card-btn">Read More</button>
+                <div class="hiddendetails">
+                    <ul>
+                        <li>Day to day transactions</li>
+                        <li>Expenses Recording</li>
+                        <li>Payroll services</li>
+                        <li>Companies invoices and billing.</li>
+                        <li>Daily record of expenses and income</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Tax Services</h2>
+                <p>Our tax services cover a wide range of needs to ensure that our clients are always in compliance with
+                    tax regulations and laws.</p>
+                <button class="card-btn">Read More</button>
+                <div class="hiddendetails">
+                    <ul>
+                        <li>Preparation and filing of tax returns</li>
+                        <li>Filing and dealing with appeals</li>
+                        <li>Attending hearings</li>
+                        <li>Tax registration</li>
+                        <li>Companies tax returns</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-ser">
+            <div class="card">
+                <h2>Auditing</h2>
+                <p>Our auditing services help businesses maintain transparency and accountability, giving stakeholders
+                    confidence in the organization's financial health.</p>
+                <button class="card-btn">Read More</button>
+                <div>
+                    <div class="hiddendetails">
+                        <ul>
+                            <li>Statutory Auditing</li>
+                            <li>Internal and External Audit</li>
+                            <li>Fraud Investigation Reports</li>
+                            <li>Information Security Auditing</li>
+                            <li>Preparation of annual reports</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Business Planning</h2>
+                <p>Our team of experienced professionals works diligently to tailor custom solutions for each client,
+                    ensuring that their individual needs and goals are met.</p>
+                <button class="card-btn">Read More</button>
+                <div class="hiddendetails">
+                    <ul>
+                        <li>Company Formation Services</li>
+                        <li>SECP Registration</li>
+                        <li>Litigation Advisory and Arbitration</li>
+                        <li>Business Relocation</li>
+                        <li>Liquidation Services</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <h2>Business Setup </h2>
+                <p>Our team of experienced professionals works diligently to tailor custom solutions for each client,
+                    ensuring that their individual needs and goals are met.</p>
+                <div class="hiddendetails">
+                    <ul>
+                        <li>Business set up overseas</li>
+                        <li>Arrangmement of visas</li>
+                        <li>Preliminary business setup</li>
+                        <li>IFRS and GAAP Implementation and conversion</li>
+                        <li>Business relocation</li>
+                    </ul>
+                </div>
+                <button class="card-btn">Read More</button>
+                <div class="hiddendetails">
+                    <ul>
+                        <li>Day to day transactions</li>
+                        <li>Monthly reports</li>
+                        <li>Finacial statments at the end of the month</li>
+                        <li>IFRS and GAAP Implementation and conversion</li>
+                        <li>Preparation of annual reports</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ....Services section ends... -->
+
+
+    <!-- ....industries section starts... -->
+    <section>
+        <div class="cont-ind">
+            <h1 class="ind-head">Businesses In All <span>Industries</span></h1>
+
+            <div class="cont-items">
+
+                <div class="ind-box">
+                    <img src="/images/Untitled design (1).png" alt="industries" height="400px" width="500px">
+                </div>
+
+                <div class="ind-list">
+                    <ul>
+                        <li><i class="fa-solid fa-school fa-2xl" style="color: #1316b4;"></i>Education</li>
+                        <li><i class="fa-solid fa-chart-line fa-2xl" style="color: #1216b4;"></i>Financial Services</li>
+                        <li><i class="fa-solid fa-house-medical-flag fa-2xl" style="color: #1316b4;"></i>Hospitals</li>
+                        <li><i class="fa-solid fa-industry fa-2xl" style="color: #1216b4;"></i>Manufacturing</li>
+                        <li><i class="fa-solid fa-landmark fa-2xl" style="color: #1216b4;"></i>Real Estate</li>
+                    </ul>
+
+                    <ul>
+                        <li><i class="fa-solid fa-city fa-2xl" style="color: #1216b4;"></i>Government</li>
+                        <li><i class="fa-solid fa-scissors fa-2xl" style="color: #1216b4;"></i>Fashion</li>
+                        <li><i class="fa-solid fa-laptop-code fa-2xl" style="color: #1216b4;"></i>Technology</li>
+                        <li><i class="fa-solid fa-arrows-spin fa-2xl" style="color: #1216b4;"></i>Construction</li>
+                        <li><i class="fa-solid fa-mug-hot fa-2xl" style="color: #1216b4;"></i>Restuarants</li>
+                    </ul>
+
+                </div>
+            </div>
+    </section>
+    <!-- ....industries section ends... -->
+
+
+    <!-- ...Why Choose Us section starts... -->
+        <section>
+            <div>
+                <h2 class="ch-head">Why Choose<span>Us</span></h2>
+            </div>
+            <div class="ch-items">
+                <div class="ch-img">
+                    <img src="/images/professional-team.jpg" class="ch-items-img" alt="Professional Team">
+                    <h2 class="ch-items-head">Professional Team</h2>
+                    <div class="hidden-content">
+                        <p>We offer comprehensive bookkeeping services that go beyond just keeping track of financial
+                            transactions. Not only do we handle the day-to-day tasks.</p>
+                    </div>
+                </div>
+
+                <div class="ch-img">
+                    <img src="/images/quick-service.jpg" class="ch-items-img" alt="Quick Service">
+                    <h2 class="ch-items-head">Quick Service</h2>
+                    <div class="hidden-content">
+                        <p>Our quick service solutions are designed to help you save time and increase productivity.
+                            By outsourcing time-consuming tasks to us, you can focus on core business activities and
+                            achieve more in less time.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="ch-img">
+                    <img src="images/price.jpg" class="ch-items-img" alt="Affordable Prices">
+                    <h2 class="ch-items-head">Affordable Prices</h2>
+                    <div class="hidden-content">
+                        <p>By choosing our affordable services, you can significantly reduce your expenses without
+                            compromising on quality. We offer competitive pricing and transparent pricing structures to
+                            help you stay within your budget.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ...Why Choose Us section ends... -->
+
+
+        <!-- ...Our Team section starts... -->
+        <section>
+            <div class="fd-head">
+                <h1 >Our Qualified Team available <span>for you</span></h1>
+            </div>
+            <div class="team">
+
+                <div class="team-items">
+                    <img src="/images/our team.jpg" height="500px" width="90%">
+
+        </section>
+        <!-- ...Our Team section ends... -->
+
+
+        <!-- ...Our Partner section starts... -->
+        <section>
+            <div class="container-clients">
+                <h1 class="pr-head">Our Partners and <span>Clients</span></h1>
+                <div class="partner">
+                    <div class="partner-items">
+                        <img src="/images/partner-1.png" height="70px" width="70px">
+                    </div>
+                    <div class="partner-items">
+                        <img src="/images/partner-2.png" height="70px" width="70px">
+                    </div>
+                    <div class="partner-items">
+                        <img src="/images/partner-3.png" height="70px" width="70px">
+                    </div>
+                    <div class="partner-items">
+                        <img src="/images/partner-4.png" height="70px" width="70px">
+                    </div>
+                    <div class="partner-items">
+                        <img src="/images/partner-5.png" height="70px" width="70px">
+                    </div>
+                </div>
+                <div class="partner">
+                    <div class="partner-items">
+                        <img src="/images/partner-6.png" height="70px" width="70px">
+                    </div>
+                    <div class="partner-items">
+                        <img src="/images/partner-7.png" height="70px" width="70px">
+                    </div>
+                    <div class="partner-items">
+                        <img src="/images/partner-8.png" height="70px" width="70px">
+                    </div>
+                    <div class="partner-items">
+                        <img src="/images/partner-9.png" height="70px" width="70px">
+                    </div>
+                    <div class="partner-items">
+                        <img src="/images/partner-10.png" height="70px" width="70px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ...Our Partner section starts... -->
+
+
+        <!-- <!...Cleint's Feedback section estarts..-->
+        <section>
+            <h1 class="fd-head">Client's<span> Feedback</span></h1>
+            <div class="feedback">
+                <div class="fd-card-1">
+                    <h2 class="name">Alexander</h2>
+                    <p>
+                        Such a professional, efficient and responsive company. They take all the stress out of your
+                        accounts
+                        and always go above and beyond. Their service is impeccable and I can’t recommend them highly
+                        enough.</p>
+                </div>
+
+                <div class="fd-card-2">
+                    <h2 class="name">Christopher Tim</h2>
+                    <p>Excellent accountancy firm! Proactive, professional to a very high standard and very quick to
+                        respond. Could not have hoped for better.</p>
+                </div>
+                <div class="fd-card-3">
+                    <h2 class="name">Monica Green</h2>
+                    <p>They have a great talent pool and internal management which makes the delivery of the accounting
+                        and
+                        finance services to our clients a breeze.</p>
+                </div>
+                <div class="fd-card-4">
+                    <h2 class="name">Hussain Malik</h2>
+                    <p>I now feel far more confident that I am able to increase my business with GMC as my outsourcing
+                        partner.</p>
+                </div>
+                <div class="fd-card-5">
+                    <h2 class="name">David Garcia</h2>
+                    <p> I was pleasantly surprised to find that the accuracy was no less than what any of my accountants
+                        deliver and, in some areas, better than my own team! The little notes reinforce my belief in
+                        your
+                        team’s attention to detail.</p>
+                </div>
+                <div class="fd-card-6">
+                    <h2 class="name">Samantha Smith</h2>
+                    <p> I have a lot of work so started as a trial to see how they worked. Am now on my second block
+                        booking
+                        with them and am really pleased both with the quality of the work they produce and the speed
+                        they
+                        turn jobs around - even in the busy periods.</p>
+                </div>
+                <div class="fd-card-7">
+                    <h2 class="name">John Doe</h2>
+                    <p>They provided exceptional service and insightful advice that helped our business grow and reach new heights.</p>
+                </div>
+        
+                <div class="fd-card-8">
+                    <h2 class="name">Jane Smith</h2>
+                    <p>The team's professionalism and attention to detail are unmatched. I highly recommend their services to anyone in need of expert financial management.</p>
+                </div>
+        
+                <div class="fd-card-9">
+                    <h2 class="name">Paul Johnson</h2>
+                    <p>By far the best outsourcing partner we've worked with. Their expertise and commitment to our success are evident in everything they do.</p>
+                </div>
+            </div>
+
+            </div>
+        </section>
+        <!-- ...Cleint's Feedback section ends... -->
+
+
+        <!-- .....contact us starts.... -->
+        <section>
+            <div>
+                <h2 class="cnt">Contact <span>Us</span></h2>
+            </div>
+            <div class="container">
+
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+        </section> <!-- .....contact us ends.... -->
+
+
+<!-- Footer Section Starts -->
+        <footer>
+            <!-- 1st row: Subscribe Newsletter -->
+            <div class="foot-row-1">
+                <div class="subscribe">
+                    <h3>Subscribe our newsletter</h3>
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 2nd row: Company Info and Quick Links -->
+            <div class="foot-row-2">
+                <div class="col-1">
+                    <h2>Our Company</h2>
+                    <p>Global Management Consultant is one of the leading companies in Pakistan with operations in three
+                        major cities: Islamabad, Lahore, and Karachi.</p>
+                </div>
+                <div class="col-2">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h2>Useful Links</h2>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 3rd row: Social Media Links -->
+            <div class="foot-row-3">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/Global-Management-Consultants/100075888133345/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/pak.gmc/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/gmc-tariq-amin/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <!-- 4th row: Copyright -->
+            <div class="foot-row-4">
+                <p>&copy; 2024. All Rights Reserved. Global Management Consultant</p>
+            </div>
+        </footer>
+
+        <!-- -------Footer ends----- -->
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>

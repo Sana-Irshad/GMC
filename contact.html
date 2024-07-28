@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMC/Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body> 
+       <!-- ...Navbar start.... -->
+       <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="GMC-Logo.png" alt="Logo" height="60px" width="60px">
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+            </div>
+            <div class="login-signup-btn">
+                <button class="nav-btn" id="loginbtn">Login</button>
+                <div class="login-container" id="loginContainer">
+                <div class="login-box">
+                    <form id="loginForm" action="#">
+                        <h2>Login</h2>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <button type="submit">Login</button>
+                    </form>
+                    <span class="close" id="closeBtn">&times;</span>
+                </div>
+            </div>
+                <button class="nav-btn" id="signupbtn">Sign Up</button>
+                <div class="signup-container" id="signupContainer">
+                    <div class="signup-box">
+                        <form id="signupForm" action="#">
+                            <h2>Sign Up</h2>
+                            <label for="fullname">Full Name:</label>
+                            <input type="text" id="fullname" name="fullname" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="signupUsername">Username:</label>
+                            <input type="text" id="signupUsername" name="signupUsername" required>
+                            <label for="signupPassword">Password:</label>
+                            <input type="password" id="signupPassword" name="signupPassword" required>
+                            <button type="submit">Sign Up</button>
+                        </form>
+                        <span class="close" id="closeSignupBtn">&times;</span>
+                    </div>
+            </div>
+            
+        </div>
+        </div>
+    </nav>
+<!-- ....navbar ends... -->
+
+  <!-- .....contact us starts.... -->
+  <section>
+    <div>
+        <h2 class="cnt-1">Contact <span>Us</span></h2>
+    </div>
+    <div class="container">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</section> <!-- .....contact us ends.... -->
+
+
+    <!-- Footer Section Starts -->
+    <footer>
+        <!-- 1st row: Subscribe Newsletter -->
+        <div class="foot-row-1">
+            <div class="subscribe">
+                <h3>Subscribe our newsletter</h3>
+                <form action="#">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- 2nd row: Company Info and Quick Links -->
+        <div class="foot-row-2">
+            <div class="col-1">
+                <h2>Our Company</h2>
+                <p>Global Management Consultant is one of the leading companies in Pakistan with operations in three
+                    major cities: Islamabad, Lahore, and Karachi.</p>
+            </div>
+            <div class="col-2">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 3rd row: Social Media Links -->
+        <div class="foot-row-3">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/people/Global-Management-Consultants/100075888133345/""><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/pak.gmc/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/gmc-tariq-amin/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <!-- 4th row: Copyright -->
+        <div class="foot-row-4">
+            <p>&copy; 2024. All Rights Reserved. Global Management Consultant</p>
+        </div>
+    </footer>
+
+    <!-- -------Footer ends----- -->
+    <script src="script.js"></script>
+</body>
+</html>

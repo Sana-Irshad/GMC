@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMC/Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body> 
+     <!-- ...Navbar start.... -->
+     <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="GMC-Logo.png" alt="Logo" height="60px" width="60px">
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="aboutus.html" class="active">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            </div>
+            <div class="login-signup-btn">
+                <button class="nav-btn" id="loginbtn">Login</button>
+                <div class="login-container" id="loginContainer">
+                <div class="login-box">
+                    <form id="loginForm" action="#">
+                        <h2>Login</h2>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <button type="submit">Login</button>
+                    </form>
+                    <span class="close" id="closeBtn">&times;</span>
+                </div>
+            </div>
+                <button class="nav-btn" id="signupbtn">Sign Up</button>
+                <div class="signup-container" id="signupContainer">
+                    <div class="signup-box">
+                        <form id="signupForm" action="#">
+                            <h2>Sign Up</h2>
+                            <label for="fullname">Full Name:</label>
+                            <input type="text" id="fullname" name="fullname" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="signupUsername">Username:</label>
+                            <input type="text" id="signupUsername" name="signupUsername" required>
+                            <label for="signupPassword">Password:</label>
+                            <input type="password" id="signupPassword" name="signupPassword" required>
+                            <button type="submit">Sign Up</button>
+                        </form>
+                        <span class="close" id="closeSignupBtn">&times;</span>
+                    </div>
+            </div>
+            
+        </div>
+        </div>
+    </nav>
+<!-- ....navbar ends... -->
+
+<section>
+    <div class="cont-about">
+        <h1>About Us</h1>
+    </div>
+
+    <div class="card-container-about">
+      <div class="about-item-1">
+      <img src="/images/pexels-olly--Mission.jpg">
+      <h2>Mission</h2>
+      <p>To provide comprehensive accounting services to our clients.</p>
+      </div>
+      <div class="about-item-1">
+        <img src="/images/pexels-vision.jpg">
+        <h2>Vision</h2>
+        <p>To become one of the best Accounting &
+            Auditing firms in Pakistan. Providing utmost
+            satisfaction to all the clienteles.</p>
+        </div>
+        <div class="about-item-1">
+            <img src="/images/pexels-values.jpg">
+            <h2>Values</h2>
+            <p>Quality, Integrity, Committement, Independence and Customer focus.</p>
+            </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="about-ceo">
+        <h2>About <span>CEO</span></h2>
+        <div class="ceo-container">
+            <div class="ceo-img">
+                <img src="/images/pexels-CEO.jpg" alt="CEO">
+            </div>
+            <div class="ceo-content">
+                <p>Our Chief Operating Officer Mr. Tariq Amin, has over 20 years of extensive
+                    experience in the auditing and accounting industry. He is a fellow member of the
+                    Institute of Chartered Accountants of Pakistan. He has worked with audit firms in
+                    Pakistan as well as Malaysia and is familiar with all legal aspects applicable to business
+                    organizations in Pakistan. His far-seeing vision, leadership, and motivation have enabled
+                    many organizations to achieve greater heights, where he has been partnered or
+                    associated with. His vast experience in performing audits and analyzing financial
+                    statements will help you to put aside all the worries related to accounting and financial
+                    management and focus on your business growth.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer Section Starts -->
+    <footer>
+        <!-- 1st row: Subscribe Newsletter -->
+        <div class="foot-row-1">
+            <div class="subscribe">
+                <h3>Subscribe our newsletter</h3>
+                <form action="#">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- 2nd row: Company Info and Quick Links -->
+        <div class="foot-row-2">
+            <div class="col-1">
+                <h2>Our Company</h2>
+                <p>Global Management Consultant is one of the leading companies in Pakistan with operations in three
+                    major cities: Islamabad, Lahore, and Karachi.</p>
+            </div>
+            <div class="col-2">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 3rd row: Social Media Links -->
+        <div class="foot-row-3">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/people/Global-Management-Consultants/100075888133345/""><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/pak.gmc/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/gmc-tariq-amin/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <!-- 4th row: Copyright -->
+        <div class="foot-row-4">
+            <p>&copy; 2024. All Rights Reserved. Global Management Consultant</p>
+        </div>
+    </footer>
+
+    <!-- -------Footer ends----- -->
+    <script src="script.js"></script>
+</body>
+</html>
